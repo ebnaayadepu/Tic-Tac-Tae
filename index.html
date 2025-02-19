@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body class="bg-[#548687] text-center">
+
+    <div class="msg-container h-[30vmin] w-[40vmin] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <p class=" text-[5vmin] p-4 text-red-900 text-bolder" id="msg">Winner</p>
+      <button  class="px-4 py-2 text-[1.5rem] bg-[#191913] text-[#fff] border border-[1rem] border-none rounded-2xl" id="new-btn">New Game</button>
+    </div>
+    <main>
+      <h1 class="text-3xl font-bold mt-8">Tic Tac Toe</h1>
+      <div class="container h-[70vh] flex justify-center items-center">
+        <div
+          class="game h-[60vmin] w-[60vmin] flex flex-wrap gap-2.5 justify-center items-center"
+        >
+          <button
+            class="box bg-[#ffffc7] h-[18vmin] w-[18vmin] rounded-2xl border-none text-7xl flex justify-center items-center" id="box"
+          ></button>
+          <button
+            class="box bg-[#ffffc7] h-[18vmin] w-[18vmin] rounded-2xl border-none text-7xl flex justify-center items-center" id="box"
+          ></button>
+          <button
+            class="box bg-[#ffffc7] h-[18vmin] w-[18vmin] rounded-2xl border-none text-7xl flex justify-center items-center" id="box"
+          ></button>
+          <button
+            class="box bg-[#ffffc7] h-[18vmin] w-[18vmin] rounded-2xl border-none text-7xl flex justify-center items-center" id="box"
+          ></button>
+          <button
+            class="box bg-[#ffffc7] h-[18vmin] w-[18vmin] rounded-2xl border-none text-7xl flex justify-center items-center" id="box"
+          ></button>
+          <button
+            class="box bg-[#ffffc7] h-[18vmin] w-[18vmin] rounded-2xl border-none text-7xl flex justify-center items-center" id="box"
+          ></button>
+          <button
+            class="box bg-[#ffffc7] h-[18vmin] w-[18vmin] rounded-2xl border-none text-7xl flex justify-center items-center" id="box"
+          ></button>
+          <button
+            class="box bg-[#ffffc7] h-[18vmin] w-[18vmin] rounded-2xl border-none text-7xl flex justify-center items-center" id="box"
+          ></button>
+          <button
+            class="box bg-[#ffffc7] h-[18vmin] w-[18vmin] rounded-2xl border-none text-7xl flex justify-center items-center" id="box"
+          ></button>
+        </div>
+      </div>
+
+      <button
+        class="px-4 py-2 text-[1.5rem] bg-[#191913] text-[#fff] border border-[1rem] border-none rounded-2xl"
+        id="reset-btn"
+      >
+        Reset
+      </button>
+    </main>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
